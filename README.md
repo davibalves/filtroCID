@@ -2,7 +2,7 @@
     
     
     
-remotes::install_github('DATAUNIRIO/filtroCID')
+remotes::install_github('davibalves/filtroCID')
 
 
 library(microdatasus)    
