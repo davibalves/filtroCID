@@ -1,8 +1,8 @@
-#' Selecao de códigos CID/SIM
+#' Selecao de codigos CID/SIM
 #'
 #' @param data a data.frame.
 #' @param CID a CID code.
-#' @return filter  of \code{data} by \code{cid}.
+#' @return filter rows from a microdatasus of SIM and return a \code{data} by \code{cid}.
 #' @examples
 #' meus_dados <-selecao(data=banco,CID='I50')
 #' meus_dados2 <-selecao(banco,CID='I21')

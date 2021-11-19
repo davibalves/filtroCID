@@ -12,7 +12,7 @@ selecao(data, CID)
 \item{CID}{a CID code.}
 }
 \value{
-filter  of \code{data} by \code{cid}.
+filter rows from a microdatasus of SIM and return a \code{data} by \code{cid}.
 }
 \description{
 Selecao de códigos CID/SIM
