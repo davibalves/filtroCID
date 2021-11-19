@@ -1,17 +1,12 @@
-# Hello, world!
-#
-# This is an example function named 'hello'
-# which prints 'Hello, world!'.
-#
-# You can learn more about package authoring with RStudio at:
-#
-#   http://r-pkgs.had.co.nz/
-#
-# Some useful keyboard shortcuts for package authoring:
-#
-#   Install Package:           'Ctrl + Shift + B'
-#   Check Package:             'Ctrl + Shift + E'
-#   Test Package:              'Ctrl + Shift + T'
+#' Selecao de códigos CID/SIM
+#'
+#' @param data a data.frame.
+#' @param CID a CID code.
+#' @return filter  of \code{data} by \code{cid}.
+#' @examples
+#' meus_dados <-selecao(data=banco,CID='I50')
+#' meus_dados2 <-selecao(banco,CID='I21')
+#' meus_dados3 <-selecao(banco,CID = c("I0[5-8]|I091|I3[4-9]|Q2[2-3]|T820|T822|T826|Z95"))
 
 selecao <- function(data,CID){
   tmp <- data
