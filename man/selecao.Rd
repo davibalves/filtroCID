@@ -9,7 +9,7 @@ selecao(data, CID)
 \arguments{
 \item{data}{a data.frame object from microdatasus.}
 
-\item{CID}{a CID code. isso e codigo CID de interesse. Suporta expressoes regulares. Para selecao de mais de um codigo e necessario separar por Barras.}
+\item{CID}{a CID code. isso e codigo CID de interesse. Suporta expressoes regulares. Para selecao de mais de um codigo e necessario separar por Barras.CID = Codificacao Internacional de Doencas}
 }
 \value{
 filter rows from a microdatasus of SIM and return a \code{data} by \code{cid}.

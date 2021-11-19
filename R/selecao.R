@@ -1,7 +1,7 @@
 #' Selecao de codigos CID/SIM
 #'
 #' @param data a data.frame object from microdatasus.
-#' @param CID a CID code. isso e codigo CID de interesse. Suporta expressoes regulares. Para selecao de mais de um codigo e necessario separar por Barras.
+#' @param CID a CID code. isso e codigo CID de interesse. Suporta expressoes regulares. Para selecao de mais de um codigo e necessario separar por Barras.CID = Codificacao Internacional de Doencas
 #' @return filter rows from a microdatasus of SIM and return a \code{data} by \code{cid}.
 #' @references https://tutoriaisdadosunirio.netlify.app/ and https://www.scielo.br/j/csp/a/gdJXqcrW5PPDHX8rwPDYL7F/?lang=pt
 #' @examples
