@@ -9,7 +9,7 @@ library(microdatasus)
 library(filtroCID)
 
 banco<-fetch_datasus(year_start = 2000,year_end = 2000,uf = 'AC',information_system = "SIM-DO")
-class(banco)
+
 
 meus_dados <-selecao(data=banco,CID='I50')
 
