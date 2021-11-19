@@ -2,23 +2,26 @@
 % Please edit documentation in R/selecao.R
 \name{selecao}
 \alias{selecao}
-\title{Selecao de códigos CID/SIM}
+\title{Selecao de codigos CID/SIM}
 \usage{
 selecao(data, CID)
 }
 \arguments{
-\item{data}{a data.frame.}
+\item{data}{a data.frame object from microdatasus.}
 
-\item{CID}{a CID code.}
+\item{CID}{a CID code. isso e codigo CID de interesse. Suporta expressoes regulares. Para selecao de mais de um codigo e necessario separar por Barras.}
 }
 \value{
 filter rows from a microdatasus of SIM and return a \code{data} by \code{cid}.
 }
 \description{
-Selecao de códigos CID/SIM
+Selecao de codigos CID/SIM
 }
 \examples{
 meus_dados <-selecao(data=banco,CID='I50')
 meus_dados2 <-selecao(banco,CID='I21')
 meus_dados3 <-selecao(banco,CID = c("I0[5-8]|I091|I3[4-9]|Q2[2-3]|T820|T822|T826|Z95"))
+}
+\references{
+https://tutoriaisdadosunirio.netlify.app/ and https://www.scielo.br/j/csp/a/gdJXqcrW5PPDHX8rwPDYL7F/?lang=pt
 }
